@@ -1,0 +1,158 @@
+a{
+    text-decoration: none;
+    outline: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+figure{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+}
+nav{
+    background-color: #0E0D23;
+    }
+.logo{
+    width: 80px;
+    height: 90px;
+}
+.menu{
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+}
+section{
+padding: 5px
+}
+#sobremi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    }
+#sobremi article{
+    width: 310px;
+    padding: 10px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+.fotocv{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    }
+.orden1{
+    padding: 200px;
+    }
+#servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    }
+#servicios article{
+    width: 310px;
+    padding: 10px;
+}
+#formacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    }
+#formacion article{
+    width: 310px;
+    padding: 10px;
+}
+*{
+    box-sizing: border-box
+}
+header{
+    background-color: #edece5;
+    padding: 80px;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    color: #0E0D23;
+    background-color: #edece5;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    }
+footer{
+    background-color:lightgrey;
+}
+
+**TITULOS**
+h1,h2,h3{
+    font-family: 'Quicksand', sans-serif;
+}
+h1{
+    color: #0E0D23;
+    font-size: 80px;
+    font-weight:300;
+}
+h2{
+    color: crimson;
+    font-size: 40px;
+    font-weight: 200;
+    }
+h3{
+    font-size: 20px;
+    font: weight 700px;;
+}
+.fuerte{
+    color:#0E0D23
+    font-size: 18px;
+}
+.sh{
+    line-height: 28px;
+}
+
+**PORTFOLIO**
+
+#trabajos{
+}
+.expo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 40px;
+    }
+.orden{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 10px;
+padding: 5px;
+}
+#redes{
+    display: flex;
+    flex-direction: row;
+}
+#redes article{
+    padding: 10px;
+}
+.orden2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 155px;
+}
